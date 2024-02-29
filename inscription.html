@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="inscription.css"> <!-- Assurez-vous d'inclure votre fichier CSS ici -->
+</head>
+<body>
+    <nav class="menu">
+        <h1><a href="accueil.html"><img class="logo" src="img/Capture d'écran 2023-09-20 164241.png" widht=40 height=70px></a></h1>
+            <ul>
+                
+                <li class="noir">
+                   <a href="accueil.html">Accueil</a>
+                </li>
+                <li class="noir">
+                    <a href="Formations.html">data.html</a> 
+                </li>
+                <li class="noir">
+                    <a href="Evenements.html">Evenements</a>
+                </li>
+                <li class="noir">
+                    <a href="eligibilite.html">éligibilité</a>
+                </li>
+                <li class="noir">
+                    <a href="offres d'emploi.html">Nos offres</a>
+                </li>
+            </ul>
+        </nav>
+    <h1>Inscription</h1>
+    <form action="traitement_inscription.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="motdepasse">Mot de passe :</label>
+        <input type="password" id="motdepasse" name="motdepasse" required>
+
+        <label for="confirmer_motdepasse">Confirmer le mot de passe :</label>
+        <input type="password" id="confirmer_motdepasse" name="confirmer_motdepasse" required>
+
+        <label for="date_naissance">Date de naissance :</label>
+        <input type="date" id="date_naissance" name="date_naissance" required>
+
+        <label for="adresse">Adresse :</label>
+        <textarea id="adresse" name="adresse" required></textarea>
+
+        <label for="casier_judiciaire">Casier judiciaire :</label>
+        <input type="file" id="casier_judiciaire" name="casier_judiciaire" accept=".pdf,.doc,.docx" required>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+    
+    <footer>
+        <div class="footter">
+            <div class="container">
+                <div class="row">
+                    <div class="footter-col">
+                        <h4>Association</h4>
+                        <ul>
+                            <li><a href="#"></a>A propos de nous</li>
+                           
+        
+                        
+                    </div>
+                    
+                    <div class="footter-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="#"></a>07 43 65 22 13</li>
+                            <li><a href="#"></a>e-reinsertion@gmail.com</li>
+                            <li><a href="#"></a>20 Jardins Boieldieu 92800 <br>
+                                Puteaux</li>
+                        </ul>
+                    </div>
+                 
+                
+                
+                
+            
+                
+            </div>
+            
+        
+        
+            
+            
+                    
+        
+            
+        </div>
+    </footer>
+            
+        
+</body>
+</html>

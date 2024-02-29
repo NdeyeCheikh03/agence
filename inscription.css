@@ -1,0 +1,160 @@
+.noir{
+    border-radius: 30px;
+    background-color: white;
+    color: white;
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  .menu{
+    background-color: pink;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 90.6%;
+  }
+  
+  .menu ul{
+    list-style: none;
+    display: flex;
+  }
+  .menu ul li{
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .footer-col{
+    width: 22%;
+    padding: 0 18px;
+  }
+  .footer-col h4{
+    font-size: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    color: #353535;
+  }
+  
+  .footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background: #a4c83d;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footter{
+    background: pink;
+    padding: 20px ;
+    margin-top: 250px;
+  }
+  
+  .row{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+   
+  }
+  .logo {
+    margin-top: 5px;
+    padding-top: 5%;
+    width: 250px;
+  }
+  body{
+    background-image: url("img/WhatsApp\ Image\ 2023-09-20\ à\ 13.53.27.jpg");
+  }
+  
+  
+  .footter-col{
+    width: 22%;
+    padding: 0 18px;
+  }
+  .footter-col h4{
+    font-size: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    color: #353535;
+  }
+  .footter-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background: #a4c83d;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+ 
+/* Styles pour le formulaire d'inscription */
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les messages d'erreur ou de succès (à personnaliser en fonction de vos besoins) */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+.point{
+    list-style-type: none;
+}

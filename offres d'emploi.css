@@ -1,0 +1,224 @@
+.noir1{
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.noir2{
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 70px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.noir3{
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.noir4{
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 60px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.noir5{
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    display: inline;
+}
+
+
+
+.offre menu li a{
+    margin-top: 40px;
+}
+.menu{
+    background-color: pink;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 90,6%;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 18px;
+  }
+  .footer-col h4{
+    font-size: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    color: #353535;
+  }
+  
+  .footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background: #a4c83d;
+  }
+    
+        .footer-col h4::before{
+        content: "";
+        position:absolute;
+        left:0;
+        bottom:-5px;
+        background:#a4c83d;
+        height:3px;
+        box-sizing:border-box;
+        width:50px;
+      }
+      
+      .footter{
+        background:pink;
+        padding: 20px ;
+        margin-top: 250px;
+      }
+      
+      .row{
+      
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+       
+      }
+      .logo {
+        margin-top: 5px;
+        padding-top: 5%;
+        width: 250px;
+      }
+      
+      
+      
+      .footter-col{
+        width: 22%;
+        padding: 0 18px;
+      }
+      .footter-col h4{
+        font-size: 20px;
+        margin-bottom: 7px;
+        position: relative;
+        color: #353535;
+      }
+      .footter-col h4::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background: #a4c83d;
+        height: 3px;
+        box-sizing: border-box;
+        width: 50px;
+      }
+
+
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("img/informatique-multi-site.webp");
+        
+        
+        
+        
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .liste{
+        max-width: 800px;
+        margin: 2rem auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .job {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .lieujob {
+        font-style: italic;
+        color: #888;
+    }
+
+    .job-description {
+        margin-top: 0.5rem;
+    }
+
+    .postuler {
+        margin-top: 1rem;
+        font-style: italic;
+        color: #888;
+        
+    }
+
+    .titre {
+        background-color: #333;
+        color: #fff;
+        padding: 20px; 
+        text-align: center; 
+        font-size: 24px; 
+        font-weight: bold; 
+    }
+    
+
+.logo {
+    width: 150px; 
+    height: 100px; 
+    background-image: url(img/WhatsApp\ Image\ 2023-09-20\ à\ 10.27.46.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.point{
+    list-style-type: none;
+}
+intro{
+    font-style: italic;
+    font-size: 20px;
+    
+}

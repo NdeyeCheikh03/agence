@@ -1,0 +1,143 @@
+.noir{
+  border-radius: 30px;
+  background-color: #f9e1f5;
+  color: white;
+  width: 90px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.menu{
+  background-color: #efcbd2;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  width: 90.6%;
+}
+.willy h1{
+
+
+background-color: rgb(255, 235, 235);
+text-align: center;
+
+background-color: rgb(244, 212, 212);
+color: #2f3030;
+padding: 10px;
+
+
+}
+header{
+background-color: rgb(237, 182, 182);
+text-align: center;
+
+background-color: #fcf8ea;
+color: #292828;
+padding: 10px;
+
+}
+.taille{
+font-size: 25px;
+}
+.contenu{
+font-size: 22px;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+.menu ul li{
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.fatou{
+display: flex;
+
+}
+
+
+.taille{
+font-size: 20px ;
+}
+.contenu1{
+display: flex;
+}
+.projets{
+text-align: center;
+
+}
+.footer-col{
+  width: 22%;
+  padding: 0 18px;
+}
+.footer-col h4{
+  font-size: 20px;
+  margin-bottom: 7px;
+  position: relative;
+  color: #353535;
+}
+.yamou{
+  display: flex;
+}
+.amy{
+  display: flex;
+}
+.footer-col h4::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background: #a4c83d;
+  height: 3px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footter{
+  background:pink;
+  padding: 20px ;
+  margin-top: 250px;
+}
+
+.row{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+ 
+}
+body{
+  background-color: rgb(246, 233, 225)
+}
+.logo {
+  margin-top: 5px;
+  padding-top: 5%;
+  width: 250px;
+}
+
+.changement{
+  font-size: 22px;
+  font-style: italic;
+}
+
+.footter-col{
+  width: 22%;
+  padding: 0 18px;
+}
+.footter-col h4{
+  font-size: 20px;
+  margin-bottom: 7px;
+  position: relative;
+  color: #353535;
+}
+.footter-col h4::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background: #eaece4;
+  height: 3px;
+  box-sizing: border-box;
+  width: 50px;}
